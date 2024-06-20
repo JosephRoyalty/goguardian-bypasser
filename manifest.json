@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "GoGuardian Redirector",
+    "version": "1.0",
+    "description": "Redirects you to the last site you were on if GoGuardian or blocked GoGuardian site is detected.",
+    "permissions": [
+      "tabs",
+      "history"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
